@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4qbAkbXmdQk=",
+  "dgSpecHash": "OVIPKZDu6qY=",
   "success": true,
-  "projectFilePath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj",
+  "projectFilePath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\piotr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0-preview.7.25380.108\\microsoft.aspnetcore.openapi.10.0.0-preview.7.25380.108.nupkg.sha512",
     "C:\\Users\\piotr\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
@@ -13,9 +13,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference System.Net.Http.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj",
+      "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj",
       "warningLevel": 1,
-      "filePath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj",
+      "filePath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj",
       "libraryId": "System.Net.Http.Json",
       "targetGraphs": [
         "net10.0"

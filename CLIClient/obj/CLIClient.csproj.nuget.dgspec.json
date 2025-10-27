@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj": {}
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj": {}
   },
   "projects": {
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj",
         "projectName": "CLIClient",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\CLIClient.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\CLIClient.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\CLIClient\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLIClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj"
               },
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\WebAPI\\WebAPI.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\WebAPI\\WebAPI.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\WebAPI\\WebAPI.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\WebAPI\\WebAPI.csproj"
               }
             }
           }
@@ -355,14 +355,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -693,14 +693,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\FileRepositories\\FileRepositories.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\FileRepositories\\FileRepositories.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj",
         "projectName": "FileRepositories",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\FileRepositories\\FileRepositories.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\FileRepositories\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -721,8 +721,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\RepositoryContracts\\RepositoryContracts.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\RepositoryContracts\\RepositoryContracts.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj"
               }
             }
           }
@@ -1035,14 +1035,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\RepositoryContracts\\RepositoryContracts.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj",
         "projectName": "RepositoryContracts",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\RepositoryContracts\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1063,8 +1063,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Entities\\Entities.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj"
               }
             }
           }
@@ -1377,14 +1377,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Shared\\ApiContracts\\ApiContracts.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Shared\\ApiContracts\\ApiContracts.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj",
         "projectName": "ApiContracts",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Shared\\ApiContracts\\ApiContracts.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Shared\\ApiContracts\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1715,14 +1715,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\WebAPI\\WebAPI.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\WebAPI\\WebAPI.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\WebAPI\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1743,11 +1743,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\FileRepositories\\FileRepositories.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\FileRepositories\\FileRepositories.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj"
               },
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Shared\\ApiContracts\\ApiContracts.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment4\\Shared\\ApiContracts\\ApiContracts.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj"
               }
             }
           }
