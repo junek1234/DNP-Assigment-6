@@ -49,6 +49,12 @@ public class HttpCommentService : ICommentService
         return new List<CommentDto>(result ?? new List<CommentDto>());
     }
 
+    public async Task<List<CommentDto>> GetCommentsByPostId(int postId)
+    {
+        var result = await client.GetFromJsonAsync<List<CommentDto>>($"comments?postId={postId}");
+        return new List<CommentDto>(result ?? new List<CommentDto>());
+    }
+
     public async Task UpdateCommentAsync(int id, UpdateCommentDto request)
     {
         HttpResponseMessage httpResponse = await client.PatchAsJsonAsync($"comments/{id}", request);

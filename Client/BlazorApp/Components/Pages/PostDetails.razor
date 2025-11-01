@@ -1,0 +1,48 @@
+@page "/posts/{id:int}"
+@using ApiContracts
+@using Services
+
+@rendermode InteractiveServer
+@inject IPostService PostService
+@inject IUserService UserService
+@inject ICommentService CommentService
+
+<PageTitle>Post Details</PageTitle>
+
+@if (post == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <h1>@post.Title</h1>
+    <p>@post.Body</p>
+    <p>Author: @(user?.UserName ?? "Unknown")</p>
+    <p>Comments:</p>
+    @foreach(CommentDto comment in comments)
+    {
+
+        <p>@comment.Body, author: @users.FirstOrDefault(u => u.Id == comment.UserId)?.UserName</p>
+    }
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    private List<UserDto> users = new List<UserDto>();
+    private UserDto? user = null;
+    private List<CommentDto> comments = new List<CommentDto>();
+
+    private PostDto? post;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        post = await PostService.GetPostAsync(Id);
+        users = await UserService.GetUsers();
+        user = await UserService.GetUserAsync(post.UserId);
+        comments = await CommentService.GetCommentsByPostId(Id);
+    
+    }
+    
+    
+}

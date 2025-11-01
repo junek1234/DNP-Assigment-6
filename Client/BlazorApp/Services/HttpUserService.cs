@@ -40,7 +40,14 @@ public class HttpUserService : IUserService
 
     public async Task<UserDto?> GetUserAsync(int id)
     {
-        return await client.GetFromJsonAsync<UserDto>($"users/{id}");
+        try
+        {
+            return await client.GetFromJsonAsync<UserDto>($"users/{id}");
+        }
+        catch (HttpRequestException ex) when (ex.StatusCode == System.Net.HttpStatusCode.NotFound)
+        {
+            return null;
+        }
     }
 
     public async Task<List<UserDto>> GetUsers()

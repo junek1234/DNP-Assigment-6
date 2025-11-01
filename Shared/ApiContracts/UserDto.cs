@@ -6,9 +6,4 @@ public class UserDto
 {
     public int Id { get; set; }
     public string UserName { get; set; }
-
-    public static implicit operator HttpResponseMessage?(UserDto? v)
-    {
-        throw new NotImplementedException();
-    }
 }

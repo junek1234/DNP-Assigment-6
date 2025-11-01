@@ -1,0 +1,36 @@
+@page "/posts"
+@using ApiContracts
+@using Services
+@rendermode InteractiveServer
+@inject IPostService PostService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Posts</PageTitle>
+
+<h1>Created Posts</h1>
+<ul>
+
+@foreach (var post in posts)
+{
+    <li @onclick="() => NavigateToPost(post.Id)">@post.Title</li>
+}</ul>
+@code {
+
+    private List<PostDto> posts = new List<PostDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await DisplayPosts();
+    }
+
+    private async Task DisplayPosts()
+    {
+        posts = await PostService.GetPosts();
+    }
+
+    private void NavigateToPost(int id)
+    {
+        NavigationManager.NavigateTo($"/posts/{id}");
+    }
+
+}
