@@ -28,7 +28,8 @@ namespace WebAPI.Controllers
             {
                 Id = created.Id,
                 Title = created.Title,
-                Body = created.Body
+                Body = created.Body,
+                UserId = created.UserId
             };
             return Created($"/Posts/{dto.Id}", created);
         }

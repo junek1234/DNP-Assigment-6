@@ -1,37 +1,61 @@
 using System;
+using System.Collections.ObjectModel;
+using System.Text.Json;
 using ApiContracts;
 
 namespace BlazorApp.Services;
 
 public class HttpCommentService : ICommentService
 {
-    public Task<CommentDto> AddCommentAsync(CreateCommentDto request)
+    private readonly HttpClient client;
+
+    public HttpCommentService(HttpClient client)
     {
-        throw new NotImplementedException();
+        this.client = client;
     }
 
-    public Task DeleteCommentAsync(int id)
+    public async Task<CommentDto> AddCommentAsync(CreateCommentDto request)
     {
-        throw new NotImplementedException();
+        HttpResponseMessage httpResponse = await client.PostAsJsonAsync("comments", request);
+        string response = await httpResponse.Content.ReadAsStringAsync();
+        if (!httpResponse.IsSuccessStatusCode)
+        {
+            throw new Exception(response);
+        }
+        return JsonSerializer.Deserialize<CommentDto>(response, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
     }
 
-    public Task<CommentDto> GetCommentAsync(int id)
+    public async Task DeleteCommentAsync(int id)
     {
-        throw new NotImplementedException();
+        HttpResponseMessage httpResponse = await client.DeleteAsync($"comments/{id}");
+         string response = await httpResponse.Content.ReadAsStringAsync();
+        if (!httpResponse.IsSuccessStatusCode)
+        {
+            throw new Exception(response);
+        }
     }
 
-    public IQueryable<CommentDto> GetComments()
+    public async Task<CommentDto?> GetCommentAsync(int id)
     {
-        throw new NotImplementedException();
+        return await client.GetFromJsonAsync<CommentDto>($"comments/{id}");
     }
 
-    public Task UpdateCommentAsync(int id, UpdateCommentDto request)
+    public async Task<List<CommentDto>> GetComments()
     {
-        throw new NotImplementedException();
+        var result = await client.GetFromJsonAsync<List<CommentDto>>("comments");
+        return new List<CommentDto>(result ?? new List<CommentDto>());
     }
 
-    Task<List<CommentDto>> ICommentService.GetComments()
+    public async Task UpdateCommentAsync(int id, UpdateCommentDto request)
     {
-        throw new NotImplementedException();
+        HttpResponseMessage httpResponse = await client.PatchAsJsonAsync($"comments/{id}", request);
+        string response = await httpResponse.Content.ReadAsStringAsync();
+        if (!httpResponse.IsSuccessStatusCode)
+        {
+            throw new Exception(response);
+        }
     }
 }

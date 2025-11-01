@@ -1,19 +1,24 @@
-﻿@page "/counter"
+﻿@page "/users/add"
+@using ApiContracts
+@using Services
 @rendermode InteractiveServer
+@inject IUserService UserService
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Add new User</PageTitle>
 
-<h1>Counter</h1>
+<h1>Add New User</h1>
 
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
+<input @bind="createUserDto.UserName"/>
+<input @bind="createUserDto.Password"/>
+<button class="btn btn-primary" @onclick="AddUser">Add</button>
 @code {
+    private CreateUserDto createUserDto = new CreateUserDto { UserName = "", Password = "" };
     private int currentCount = 0;
 
-    private void IncrementCount()
+    private async Task AddUser()
     {
-        currentCount++;
+        await UserService.AddUserAsync(createUserDto);
+        createUserDto = new CreateUserDto { UserName = "", Password = "" };
     }
+
 }

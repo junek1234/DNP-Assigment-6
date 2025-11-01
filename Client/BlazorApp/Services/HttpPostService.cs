@@ -1,37 +1,61 @@
 using System;
+using System.Collections.ObjectModel;
+using System.Text.Json;
 using ApiContracts;
 
 namespace BlazorApp.Services;
 
 public class HttpPostService : IPostService
 {
-    public Task<PostDto> AddPost7Async(CreatePostDto request)
+    private readonly HttpClient client;
+
+    public HttpPostService(HttpClient client)
     {
-        throw new NotImplementedException();
+        this.client = client;
     }
 
-    public Task DeletePostAsync(int id)
+    public async Task<PostDto> AddPostAsync(CreatePostDto request)
     {
-        throw new NotImplementedException();
+        HttpResponseMessage httpResponse = await client.PostAsJsonAsync("posts", request);
+        string response = await httpResponse.Content.ReadAsStringAsync();
+        if (!httpResponse.IsSuccessStatusCode)
+        {
+            throw new Exception(response);
+        }
+        return JsonSerializer.Deserialize<PostDto>(response, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
     }
 
-    public Task<PostDto> GetPostAsync(int id)
+    public async Task DeletePostAsync(int id)
     {
-        throw new NotImplementedException();
+        HttpResponseMessage httpResponse = await client.DeleteAsync($"posts/{id}");
+         string response = await httpResponse.Content.ReadAsStringAsync();
+        if (!httpResponse.IsSuccessStatusCode)
+        {
+            throw new Exception(response);
+        }
     }
 
-    public IQueryable<PostDto> GetPosts()
+    public async Task<PostDto?> GetPostAsync(int id)
     {
-        throw new NotImplementedException();
+        return await client.GetFromJsonAsync<PostDto>($"posts/{id}");
     }
 
-    public Task UpdatePostAsync(int id, UpdatePostDto request)
+    public async Task<List<PostDto>> GetPosts()
     {
-        throw new NotImplementedException();
+        var result = await client.GetFromJsonAsync<List<PostDto>>("posts");
+        return new List<PostDto>(result ?? new List<PostDto>());
     }
 
-    Task<List<PostDto>> IPostService.GetPosts()
+    public async Task UpdatePostAsync(int id, UpdatePostDto request)
     {
-        throw new NotImplementedException();
+        HttpResponseMessage httpResponse = await client.PatchAsJsonAsync($"posts/{id}", request);
+        string response = await httpResponse.Content.ReadAsStringAsync();
+        if (!httpResponse.IsSuccessStatusCode)
+        {
+            throw new Exception(response);
+        }
     }
 }
