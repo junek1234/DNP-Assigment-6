@@ -7,6 +7,7 @@
 
 <PageTitle>Posts</PageTitle>
 
+<button class="btn btn-primary" @onclick="NavigateToAddPost">Add Post</button>
 <h1>Created Posts</h1>
 <ul>
 
@@ -31,6 +32,10 @@
     private void NavigateToPost(int id)
     {
         NavigationManager.NavigateTo($"/posts/{id}");
+    }
+     private void NavigateToAddPost()
+    {
+        NavigationManager.NavigateTo($"/posts/add");
     }
 
 }

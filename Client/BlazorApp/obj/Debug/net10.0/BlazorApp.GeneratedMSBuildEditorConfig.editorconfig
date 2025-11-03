@@ -26,6 +26,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Pages/CommentAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21tZW50QWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Pages/PostAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQb3N0QWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Pages/PostDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQb3N0RGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Pages/User.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc2VyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [S:/University/Semester 3/DNP1/Assigments/Assigment5/Client/BlazorApp/Components/Routes.razor]

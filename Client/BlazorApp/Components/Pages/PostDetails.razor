@@ -6,6 +6,7 @@
 @inject IPostService PostService
 @inject IUserService UserService
 @inject ICommentService CommentService
+@inject NavigationManager NavigationManager
 
 <PageTitle>Post Details</PageTitle>
 
@@ -25,6 +26,7 @@ else
         <p>@comment.Body, author: @users.FirstOrDefault(u => u.Id == comment.UserId)?.UserName</p>
     }
 }
+<button class="btn btn-primary" @onclick="() => NavigateToCreateComment(post.Id)">Add Comment</button>
 
 @code {
     [Parameter]
@@ -42,6 +44,10 @@ else
         user = await UserService.GetUserAsync(post.UserId);
         comments = await CommentService.GetCommentsByPostId(Id);
     
+    }
+    private void NavigateToCreateComment(int postId)
+    {
+        NavigationManager.NavigateTo($"/posts/{postId}/comments/add");
     }
     
     

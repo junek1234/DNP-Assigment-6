@@ -1,0 +1,28 @@
+@page "/posts/add"
+@using ApiContracts
+@using Services
+@rendermode InteractiveServer
+@inject IPostService PostService
+
+<PageTitle>Add new Post</PageTitle>
+
+<h1>Add New Post</h1>
+
+<p>Title: </p>
+<input @bind="createPostDto.Title"/>
+<p>Body: </p>
+<input @bind="createPostDto.Body"/>
+<p>UserId:</p>
+<input @bind="createPostDto.UserId"/>
+<button class="btn btn-primary" @onclick="AddUser">Add</button>
+@code {
+    private CreatePostDto createPostDto = new CreatePostDto { Title="", Body="", UserId=-1};
+    private int currentCount = 0;
+
+    private async Task AddUser()
+    {
+        await PostService.AddPostAsync(createPostDto);
+        createPostDto = new CreatePostDto { Title="", Body="", UserId=-1};
+    }
+
+}

@@ -1,0 +1,31 @@
+@page "/posts/{id:int}/comments/add"
+@using ApiContracts
+@using Services
+
+@rendermode InteractiveServer
+@inject ICommentService CommentService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Add Comment</PageTitle>
+<p>Body: </p>
+<input @bind="createCommentDto.Body"/>
+<p>UserId: </p>
+<input @bind="createCommentDto.UserId"/>
+<button class="btn btn-primary" @onclick="AddComment">Add</button>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    private CreateCommentDto createCommentDto = new CreateCommentDto { Body = "", PostId = -1, UserId = -1 };
+    protected override void OnParametersSet()
+    {
+        createCommentDto.PostId = Id;
+    }
+    private async Task AddComment()
+    {
+        await CommentService.AddCommentAsync(createCommentDto);
+        createCommentDto = new CreateCommentDto { Body = "", PostId = Id, UserId = -1 };
+    }
+
+}

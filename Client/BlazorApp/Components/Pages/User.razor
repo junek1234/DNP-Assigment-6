@@ -8,7 +8,9 @@
 
 <h1>Add New User</h1>
 
+<p>Username:</p>
 <input @bind="createUserDto.UserName"/>
+<p>Password: </p>
 <input @bind="createUserDto.Password"/>
 <button class="btn btn-primary" @onclick="AddUser">Add</button>
 @code {
