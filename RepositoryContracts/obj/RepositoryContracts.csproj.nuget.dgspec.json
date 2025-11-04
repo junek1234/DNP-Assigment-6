@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj": {}
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\RepositoryContracts.csproj": {}
   },
   "projects": {
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -342,14 +342,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\RepositoryContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\RepositoryContracts.csproj",
         "projectName": "RepositoryContracts",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\RepositoryContracts.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -370,8 +370,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Entities\\Entities.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Entities\\Entities.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Entities\\Entities.csproj"
               }
             }
           }

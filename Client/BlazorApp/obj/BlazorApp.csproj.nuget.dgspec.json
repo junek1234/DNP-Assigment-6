@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Client\\BlazorApp\\BlazorApp.csproj": {}
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Client\\BlazorApp\\BlazorApp.csproj": {}
   },
   "projects": {
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Client\\BlazorApp\\BlazorApp.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Client\\BlazorApp\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Client\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Client\\BlazorApp\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Client\\BlazorApp\\BlazorApp.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Client\\BlazorApp\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Client\\BlazorApp\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Client\\BlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj": {
-                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj"
+              "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Shared\\ApiContracts\\ApiContracts.csproj": {
+                "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Shared\\ApiContracts\\ApiContracts.csproj"
               }
             }
           }
@@ -498,14 +498,14 @@
         }
       }
     },
-    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj": {
+    "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Shared\\ApiContracts\\ApiContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj",
+        "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Shared\\ApiContracts\\ApiContracts.csproj",
         "projectName": "ApiContracts",
-        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\ApiContracts.csproj",
+        "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Shared\\ApiContracts\\ApiContracts.csproj",
         "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\Shared\\ApiContracts\\obj\\",
+        "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Shared\\ApiContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

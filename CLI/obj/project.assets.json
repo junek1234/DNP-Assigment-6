@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLI\\CLI.csproj",
+      "projectUniqueName": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\CLI\\CLI.csproj",
       "projectName": "CLI",
-      "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLI\\CLI.csproj",
+      "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\CLI\\CLI.csproj",
       "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-      "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\CLI\\obj\\",
+      "outputPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\CLI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,11 +95,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj": {
-              "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\FileRepositories\\FileRepositories.csproj"
+            "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\FileRepositories\\FileRepositories.csproj": {
+              "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\FileRepositories\\FileRepositories.csproj"
             },
-            "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj": {
-              "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment5\\RepositoryContracts\\RepositoryContracts.csproj"
+            "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\RepositoryContracts.csproj": {
+              "projectPath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\RepositoryContracts\\RepositoryContracts.csproj"
             }
           }
         }
