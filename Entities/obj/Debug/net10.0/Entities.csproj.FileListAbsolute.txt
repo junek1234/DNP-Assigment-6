@@ -46,3 +46,15 @@ S:\University\Semester 3\DNP1\Assigments\Assigment5\Entities\obj\Debug\net10.0\E
 S:\University\Semester 3\DNP1\Assigments\Assigment5\Entities\obj\Debug\net10.0\refint\Entities.dll
 S:\University\Semester 3\DNP1\Assigments\Assigment5\Entities\obj\Debug\net10.0\Entities.pdb
 S:\University\Semester 3\DNP1\Assigments\Assigment5\Entities\obj\Debug\net10.0\ref\Entities.dll
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\bin\Debug\net10.0\Entities.deps.json
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\bin\Debug\net10.0\Entities.dll
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\bin\Debug\net10.0\Entities.pdb
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.AssemblyInfoInputs.cache
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.AssemblyInfo.cs
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.csproj.CoreCompileInputs.cache
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.sourcelink.json
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.dll
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\refint\Entities.dll
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\Entities.pdb
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Entities\obj\Debug\net10.0\ref\Entities.dll

@@ -1,1 +1,1 @@
-[{"Id":2,"Body":"new comment body","UserId":3,"PostId":1},{"Id":3,"Body":"newbody","UserId":1,"PostId":1}]
+[{"Id":2,"Body":"new comment body","UserId":3,"PostId":1},{"Id":3,"Body":"newbody","UserId":1,"PostId":1},{"Id":4,"Body":"comment12345","UserId":2,"PostId":8},{"Id":5,"Body":"hmmm?","UserId":8,"PostId":8},{"Id":6,"Body":"qwe","UserId":-1,"PostId":1}]
