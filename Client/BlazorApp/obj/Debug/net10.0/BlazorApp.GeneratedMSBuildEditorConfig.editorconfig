@@ -26,6 +26,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[S:/University/Semester 3/DNP1/Assigments/Assigment6/Client/BlazorApp/Components/Authentication/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBdXRoZW50aWNhdGlvblxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [S:/University/Semester 3/DNP1/Assigments/Assigment6/Client/BlazorApp/Components/Pages/CommentAdd.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21tZW50QWRkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
