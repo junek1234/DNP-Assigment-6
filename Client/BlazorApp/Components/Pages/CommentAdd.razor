@@ -1,6 +1,8 @@
 @page "/posts/{id:int}/comments/add"
+@attribute [Authorize]
 @using ApiContracts
 @using Services
+@using System.Security.Claims
 
 @rendermode InteractiveServer
 @inject ICommentService CommentService
@@ -9,14 +11,13 @@
 <PageTitle>Add Comment</PageTitle>
 <p>Body: </p>
 <input @bind="createCommentDto.Body"/>
-<p>UserId: </p>
-<input @bind="createCommentDto.UserId"/>
 <button class="btn btn-primary" @onclick="AddComment">Add</button>
 
 
 @code {
     [Parameter]
     public int Id { get; set; }
+    [CascadingParameter] public Task<AuthenticationState> State { get; set; }
     private CreateCommentDto createCommentDto = new CreateCommentDto { Body = "", PostId = -1, UserId = -1 };
     protected override void OnParametersSet()
     {
@@ -26,6 +27,21 @@
     {
         await CommentService.AddCommentAsync(createCommentDto);
         createCommentDto = new CreateCommentDto { Body = "", PostId = Id, UserId = -1 };
+    }
+     protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authenticationState = await State;
+        ClaimsPrincipal claimsPrincipal = authenticationState.User;
+        if (claimsPrincipal.Identity is null || !claimsPrincipal.Identity.IsAuthenticated)
+        {
+            // the user is not logged in
+            return;
+        }
+        string? userName = claimsPrincipal.Identity?.Name;
+        IEnumerable<Claim> claims = claimsPrincipal.Claims;
+        string userIdAsString = claims.Single(c => c.Type == ClaimTypes.NameIdentifier).Value;
+        createCommentDto.UserId = int.Parse(userIdAsString);
+
     }
 
 }

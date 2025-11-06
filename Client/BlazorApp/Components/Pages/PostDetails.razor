@@ -1,4 +1,5 @@
 @page "/posts/{id:int}"
+@attribute [Authorize]
 @using ApiContracts
 @using Services
 
@@ -31,6 +32,7 @@ else
 @code {
     [Parameter]
     public int Id { get; set; }
+    [CascadingParameter] public Task<AuthenticationState> State { get; set; }
     private List<UserDto> users = new List<UserDto>();
     private UserDto? user = null;
     private List<CommentDto> comments = new List<CommentDto>();

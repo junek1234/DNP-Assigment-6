@@ -1,6 +1,9 @@
 @page "/posts/add"
+@attribute [Authorize]
 @using ApiContracts
+@using Microsoft.AspNetCore.Authentication
 @using Services
+@using System.Security.Claims
 @rendermode InteractiveServer
 @inject IPostService PostService
 
@@ -9,20 +12,34 @@
 <h1>Add New Post</h1>
 
 <p>Title: </p>
-<input @bind="createPostDto.Title"/>
+<input @bind="createPostDto.Title" />
 <p>Body: </p>
-<input @bind="createPostDto.Body"/>
-<p>UserId:</p>
-<input @bind="createPostDto.UserId"/>
-<button class="btn btn-primary" @onclick="AddUser">Add</button>
+<input @bind="createPostDto.Body" />
+<button class="btn btn-primary" @onclick="AddPost">Add</button>
 @code {
-    private CreatePostDto createPostDto = new CreatePostDto { Title="", Body="", UserId=-1};
+    private CreatePostDto createPostDto = new CreatePostDto { Title = "", Body = "", UserId = -1 };
+    [CascadingParameter] public Task<AuthenticationState> State { get; set; }
     private int currentCount = 0;
 
-    private async Task AddUser()
+    private async Task AddPost()
     {
         await PostService.AddPostAsync(createPostDto);
-        createPostDto = new CreatePostDto { Title="", Body="", UserId=-1};
+        createPostDto = new CreatePostDto { Title = "", Body = "", UserId = -1 };
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authenticationState = await State;
+        ClaimsPrincipal claimsPrincipal = authenticationState.User;
+        if (claimsPrincipal.Identity is null || !claimsPrincipal.Identity.IsAuthenticated)
+        {
+            // the user is not logged in
+            return;
+        }
+        string? userName = claimsPrincipal.Identity?.Name;
+        IEnumerable<Claim> claims = claimsPrincipal.Claims;
+        string userIdAsString = claims.Single(c => c.Type == ClaimTypes.NameIdentifier).Value;
+        createPostDto.UserId = int.Parse(userIdAsString);
+
     }
 
 }

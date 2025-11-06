@@ -1,4 +1,5 @@
 ﻿@page "/users/add"
+@attribute [Authorize]
 @using ApiContracts
 @using Services
 @rendermode InteractiveServer
@@ -14,6 +15,7 @@
 <input @bind="createUserDto.Password"/>
 <button class="btn btn-primary" @onclick="AddUser">Add</button>
 @code {
+    [CascadingParameter] public Task<AuthenticationState> State { get; set; }
     private CreateUserDto createUserDto = new CreateUserDto { UserName = "", Password = "" };
     private int currentCount = 0;
 
