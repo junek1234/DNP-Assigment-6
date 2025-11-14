@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jSdiTlIf3K0=",
+  "dgSpecHash": "v3N4mpeccuw=",
   "success": true,
   "projectFilePath": "S:\\University\\Semester 3\\DNP1\\Assigments\\Assigment6\\Client\\BlazorApp\\BlazorApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\piotr\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0-preview.7.25380.108\\microsoft.aspnetcore.app.internal.assets.10.0.0-preview.7.25380.108.nupkg.sha512",
+    "C:\\Users\\piotr\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0\\microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
     "C:\\Users\\piotr\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\9.0.10\\microsoft.aspnetcore.components.authorization.9.0.10.nupkg.sha512"
   ],
   "logs": [

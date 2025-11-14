@@ -161,8 +161,6 @@ S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\n
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\l2mhd45r4z-{0}-63fj8s7r0e-63fj8s7r0e.gz
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\i0oilot2q1-{0}-0j3bgjxly4-0j3bgjxly4.gz
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\hsa0fwp5ls-{0}-13ja33weya-13ja33weya.gz
-S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\0txged01c1-{0}-cyt5sts332-cyt5sts332.gz
-S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\e2p7e3doxt-{0}-wos4yuj1st-wos4yuj1st.gz
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\8v4adbxxmx-{0}-2mc2qwa0tf-2mc2qwa0tf.gz
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\rrzzv9ip5o-{0}-2mc2qwa0tf-2mc2qwa0tf.gz
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\staticwebassets.build.json
@@ -172,3 +170,8 @@ S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\n
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\BlazorApp.csproj.Up2Date
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\BlazorApp.genruntimeconfig.cache
 S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\ref\BlazorApp.dll
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\EmbeddedAttribute.cs
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\0txged01c1-{0}-j8lzlu28q6-j8lzlu28q6.gz
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\compressed\e2p7e3doxt-{0}-u1n4jc5v46-u1n4jc5v46.gz
+S:\University\Semester 3\DNP1\Assigments\Assigment6\Client\BlazorApp\obj\Debug\net10.0\swae.build.ex.cache
